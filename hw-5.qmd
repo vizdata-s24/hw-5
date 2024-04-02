@@ -1,0 +1,36 @@
+---
+title: "STA 313 - Spring 2024 - HW 5"
+subtitle: "Shine bright like a diamond"
+author: "INSERT YOUR NAME HERE"
+format:
+  html:
+    embed-resources: true
+toc: true
+---
+
+```{r}
+#| label: load-packages
+#| message: false
+
+# add other packages as needed or remove comment
+```
+
+## 1 - Mirror, mirror on the wall, who’s the ugliest of them all?
+
+Add parts, narrative, and/or code chunks as needed.
+
+## 2 - The data.
+
+Add parts, narrative, and/or code chunks as needed.
+
+## 3 - The visualization.
+
+Add parts, narrative, and/or code chunks as needed.
+
+## 4 - The app.
+
+Add parts, narrative, and/or code chunks as needed.
+
+## 5 - The styled app.
+
+Add parts, narrative, and/or code chunks as needed.
