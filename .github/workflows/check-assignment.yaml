@@ -11,7 +11,7 @@ jobs:
     - name: Check Files
       run: |
         checklist::quit_on_failure({
-          checklist::check_allowed_files(c("hw-5.qmd","hw-5.html", "hw-5.Rproj", "README.md", "app1/*", "app2/*", "data/*", "images/*", "*.ttf"))
+          checklist::check_allowed_files(c("hw-5.qmd","hw-5.html", "hw-5.Rproj", "README.md", "app1/*", "app2/*", "data/data-crate.R", "data/life-meaning.csv", "images/*", "*.ttf"))
         })
       shell: Rscript {0}
 
