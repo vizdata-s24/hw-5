@@ -12,6 +12,7 @@ toc: true
 #| label: load-packages
 #| message: false
 
+library(tidyverse)
 # add other packages as needed or remove comment
 ```
 
@@ -21,7 +22,12 @@ Add parts, narrative, and/or code chunks as needed.
 
 ## 2 - The data.
 
-Add parts, narrative, and/or code chunks as needed.
+```{r}
+#| label: life-meaning-data
+#| eval: false
+life_meaning <- read_csv("data/life-meaning.csv")
+glimpse(life_meaning)
+```
 
 ## 3 - The visualization.
 
@@ -29,8 +35,8 @@ Add parts, narrative, and/or code chunks as needed.
 
 ## 4 - The app.
 
-Add parts, narrative, and/or code chunks as needed.
+Add link to your app on shinyapps.io here.
 
 ## 5 - The styled app.
 
-Add parts, narrative, and/or code chunks as needed.
+Add link to your app on shinyapps.io here.
